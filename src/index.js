@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Register from './CRUD/Register.jsx';
+import Router from './CRUD/Router.jsx';
+import Userdetails from './CRUD/Getuserdetails.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Register /> */}
+    <Router />
+
   </React.StrictMode>
 );
 
